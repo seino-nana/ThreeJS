@@ -31,8 +31,6 @@ onMounted(() => {
 // 更新循环
 function update() {
   requestAnimationFrame(update); // 使用浏览器的动画循环调用 update 函数，实现持续更新
-  // 打开坐标系
-  base.openAxes();
   // 调用base.js中的update热更新
   base.update();
   // 调用控制器热更新
@@ -47,6 +45,7 @@ function createCube() {
   // cube.position.set(0, 0, 0);
   base.scene.add(cube);
 }
+
 // 新建GUI
 function createGui() {
   let eventObj = {

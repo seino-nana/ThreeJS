@@ -1,11 +1,11 @@
 <script setup>
-import Three02 from "@/pages/Three02.vue";
+import Three07 from "@/pages/Three07.vue";
 
 </script>
 
 <template>
   <div>
-    <Three02 />
+    <Three07 />
   </div>
 </template>
 
