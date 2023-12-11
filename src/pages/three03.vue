@@ -8,7 +8,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { GUI } from "three/examples/jsm/libs/lil-gui.module.min.js";
 // 导入模型加载器
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
-// 导入hdr加载器
+// 导入hdr加载器 
 import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader';
 // 导入draco解码器
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js'

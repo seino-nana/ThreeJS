@@ -97,7 +97,7 @@ function createGui() {
     .min(0)
     .max(10)
     .step(0.1)
-    .name("控制方向光大小")
+    .name("控制方向光大小") 
     .onChange(() => {
       dir.shadow.camera.updateProjectionMatrix();
     });

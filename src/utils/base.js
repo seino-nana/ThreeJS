@@ -8,13 +8,13 @@ export default class Base {
         /* 摄像机 */
         // 实例化摄像机（透视摄像机）
         this.camera = new THREE.PerspectiveCamera(
-            75, // 视角
+            55, // 视角
             window.innerWidth / window.innerHeight, // 宽高比
             0.1, // 近面
             10000 // 远面
         )
         // 设置摄像机默认位置
-        this.camera.position.set(0, 1, 10);
+        this.camera.position.set(-4.5, 1.5, 3);
         // this.camera.lookAt(0, 0, 0);
         this.camera.updateProjectionMatrix()
 
@@ -33,8 +33,8 @@ export default class Base {
     update() {
         this.renderer.render(this.scene, this.camera)
         // 显示坐标系
-        const axesHelper = new THREE.AxesHelper(5);
-        this.scene.add(axesHelper);
+        // const axesHelper = new THREE.AxesHelper(5);
+        // this.scene.add(axesHelper);
     }
     // 自适应
     resize() {
