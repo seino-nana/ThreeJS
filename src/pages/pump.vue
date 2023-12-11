@@ -80,7 +80,7 @@ function createGui() {
 function createPlane() {
   const planeGeometry = new THREE.CylinderGeometry(1.5, 1.5, 0.1, 64);
   const planeMaterial = new THREE.MeshStandardMaterial({
-    color: "#fff",
+    color: "#48dbfb",
     side: THREE.DoubleSide,
   });
   const plane = new THREE.Mesh(planeGeometry, planeMaterial);
